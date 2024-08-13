@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metragem</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="formula.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img alt="cabanna" src="img/logo_cabanna_retina.png">
+        </div>
+
+        <div class="cabeçalho">
+            <p>Preencha as informações necessárias para obter o resultado de metragem.</p>
+        </div>
+
+        <div class="img-destaque"> 
+            <div class="layout">
+                <img alt="central" src="img/banner_final (1).jpg">
+            </div>
+
+            <div class="form-container">
+                <form id="information">
+
+                    <div class="box-input">                   
+                        <label for="strokes" style = "white-space: nowrap";>
+                            Total de braçadas:
+                            <span class="required-field"></span>
+                        </label> 
+                        <input type="number" name="strokes" id="strokes" class="block" required>
+                    </div>
+
+                    <div class="box-input">                   
+                        <label for="size" style = "white-space: nowrap">
+                            Tamanho da braçada:
+                            <span class="required-field"></span>
+                        </label> 
+                        <input type="number" name="size" id="size" class="block" required>
+                    </div>
+
+                    <div class="box-input">                   
+                        <label for="waste" style = "white-space: nowrap">
+                            Total de desperdícios:
+                            <span class="required-field"></span>
+                        </label> 
+                        <input type="number" name="waste" id="waste" class="block" required>
+                    </div>
+
+                    <button type="button" onclick="informação()">Enviar</button>
+                    <p id="resultado" type="number">Resultado: </p>
+                </form>
+
+                
+                <form id="metros">
+                    <div class="pesquisa">
+                        <label for="objeto">Digite o nome da peça:</label>
+                        <input type="text" id="objeto" class="block">
+                    </div>
+                    <div class="butao">
+                        <button type="button" onclick="consultarQuantidade()">Consultar</button>
+                        <p id="resulta" type="number">Metragem:</p>
+                        <ul id="suggestions-list"></ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

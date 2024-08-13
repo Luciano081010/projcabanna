@@ -1,0 +1,135 @@
+h1 {
+    color: rgb(255, 102, 0);
+}
+
+.cabeçalho {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+.cabeçalho p {
+    color: rgb(180, 216, 179);
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+.img-destaque {
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 216, 179);
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+form {
+    margin-top: -10%;
+    width: 35%;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semitransparente para ver a imagem de fundo */
+    
+}
+
+.box-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    
+    width: 100px;
+    margin-left: 90px;
+    
+}
+
+.pesquisa,
+.butao {
+    margin-bottom: 25px;
+}
+
+.block {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #56d38a;
+    color: rgb(15, 15, 15);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.required-field {
+    color: red;
+}
+
+#resultado {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px rgb(247, 247, 247);
+    color: #000000;
+}
+
+input::placeholder {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* RESPONSIVO */
+@media (max-width: 450px) {
+    .form-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
+
+#resulta {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px rgb(247, 247, 247);
+    color: #000000;
+
+}
+
+
