@@ -20,10 +20,13 @@ function informação() {
 
 // Dados simulados (pode ser substituído por dados reais ou uma chamada a um serviço/API)
 const inventario = {
-    "CDSB DUNAS - CORDA SINTETICA": 88.66,
+    "CDSB DUNAS - CORDA SINTÉTICA": 88.66,
     "CDSB DUNAS - MEIA CANA": 31.11,
     "ESPREGUIÇADEIRA DUNAS - CHATA 10MM": 462.22,
     "MESA BISTRÔ DUNAS D60 - CORDA SINTETICA": 133,
+    "CDSB ONDINA - CORDA NÁUTICA 5MM (PETE)": 91.60,
+    "SOFÁ BOA VIAGEM 2L - FIBRA 10MM": 78,12,
+    "POLTRONA UAUPÉS - CORDA NÁUTICA 6MM (VILLE)": 282,
     // Adicione mais itens conforme necessário
 };
 
