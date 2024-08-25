@@ -27,6 +27,7 @@ const inventario = {
     "CDSB ONDINA - CORDA NÁUTICA 5MM (PETE)": 91.60,
     "SOFÁ BOA VIAGEM 2L - FIBRA 10MM": 78,12,
     "POLTRONA UAUPÉS - CORDA NÁUTICA 6MM (VILLE)": 282,
+    "BALANÇO OQUENA - CORDA NÁUTICA 6MM (VILLE)": 610.55,
     // Adicione mais itens conforme necessário
 };
 
