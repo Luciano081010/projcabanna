@@ -42,6 +42,10 @@ const inventario = {
     "PUFF TULIPA - 6MM PETE": 161.39,
     "MESA DE CENTRO CONQUEIRINHO - 5MM PETE:": 190.50,
     "SOFÁ COQUEIRINHO - 6MM PETE": 273,
+    "MESA DE CENTRO COQUEIRINHO - 6MM VILLE": 167,
+    "LUMINARIA PEPITA DE CHÃO (G) - 6MM VILLE": 142,
+    "CDCB ILHÉUS - 6MM VILLE": 96,
+ 
     // Adicione mais itens conforme necessário
 };
 
