@@ -59,6 +59,9 @@ const inventario = {
     "SOFÁ FOLE 2L - 6MM PETE": 275.52,
     "CDCB TAMBAÚ - 6MM VILLE": 105.87,
     "CDCB ILHA BELA - 6MM VILLE": 58,
+    "PUFF PONTA NEGRA - CHATA 10MM": 56,
+    "CDSB PRAINHA - CORDA SINTÉTICA": 81,
+    "SOFÁ PONTA NEGRA 3L": 152.46,
     
    
      
